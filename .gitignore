@@ -1,0 +1,4 @@
+*.wallet
+*.keys
+*.log
+nerva-block-count.txt
