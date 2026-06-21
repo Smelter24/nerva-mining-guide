@@ -23,7 +23,6 @@ A comprehensive, step-by-step guide to mining Nerva (XNV) — a CPU-only, privac
 - [LMDB Snapshot (Backup)](#lmdb-snapshot-backup)
 - [Critical Pitfalls](#critical-pitfalls)
 - [Useful Links](#useful-links)
-- [Actual Mining Results](#actual-mining-results)
 
 ---
 
@@ -633,27 +632,6 @@ Peer connections may drop frequently. Daemon auto-reconnects but sync may stall.
 | Telegram | https://t.me/NervaCrypto |
 | GitHub | https://github.com/nerva-project/nerva |
 | Downloads | https://nerva.one/#downloads |
-
----
-
-## Actual Mining Results
-
-Real-world results from a multi-node setup (June 2026):
-
-| Node | CPU | Threads | Notes |
-|------|-----|---------|-------|
-| Metz | 2x EPYC 9755 (512 threads) | 490 | Akash deployment |
-| Boogle | VPS | 92 | Cloud VPS |
-| VPS2 | VPS | 120 | Cloud VPS |
-
-**Block found:** 1 block at height 4,253,549 within ~7 minutes of mining start on the EPYC node. This confirms solo mining works even with modest hashrate vs network.
-
-**Network stats at time of mining:**
-- Difficulty: 30,814,741
-- Network hashrate: ~514 KH/s
-- Estimated ~220 active miners
-
-**Key takeaway:** Solo mining is a lottery. The more hashrate you contribute, the higher your probability of finding blocks. But even a single powerful server can find blocks regularly.
 
 ---
 
